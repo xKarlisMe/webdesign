@@ -1,0 +1,44 @@
+body {
+    padding-top: 50px;
+}
+
+#top-section {
+    display: flex;
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
+
+#first-section {
+    margin: 0px auto;
+    max-width: 500px;
+    background-color: purple;
+    height: 100vh;
+    text-align: center;
+}
+
+#second-section {
+    margin: 0px auto;
+    max-width: 500px;
+    background-color: purple;
+    height: 100vh;
+    text-align: center;
+}
+
+#third-section {
+    margin: 0px auto;
+    max-width: 500px;
+    background-color: purple;
+    height: 100vh;
+    text-align: center;
+}
+
+#btn-holder {
+    position:fixed;
+    top: 10px;
+    right: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+}

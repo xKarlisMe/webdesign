@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karl's Webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello</h1>
+    <div id = "btn-holder">
+        <button class = "nav-btn" onclick="scrollToSection('first-section')">First Section</button>
+        <button class = "nav-btn" onclick="scrollToSection('second-section')">Second Section</button>
+        <button class = "nav-btn" onclick="scrollToSection('third-section')">Third Section</button>
+    </div>
+    <section id="top-section">
+        <h1>This is Karl's Website</h1>
+    </section>
+    <section id="first-section">
+        <p>Hello my name is Karl</p>
+    </section>
+    <section id="second-section">
+        <p>This is my page</p>
+    </section>
+    <section id="third-section">
+        <p>Would you like to know more?</p>
+    </section>
+    <script src = "script.js"></script>
 </body>
 </html>
